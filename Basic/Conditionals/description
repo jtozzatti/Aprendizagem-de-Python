@@ -1,0 +1,28 @@
+**`if`, `elif` e `else`** são usados em Python para **tomar decisões no programa**, executando diferentes códigos dependendo de uma condição.
+
+* **`if` (se)** → verifica **uma condição**. Se ela for **verdadeira**, o código dentro dele é executado.
+
+```python
+if idade >= 18:
+    print("Maior de idade")
+```
+
+* **`elif` (else if / se não se)** → permite **testar outra condição** caso o `if` seja falso.
+
+```python
+elif idade >= 16:
+    print("Pode votar")
+```
+
+* **`else` (se não)** → executa um código **quando nenhuma das condições anteriores é verdadeira**.
+
+```python
+else:
+    print("Menor de idade")
+```
+
+✅ **Resumo:**
+
+* `if` → primeira condição
+* `elif` → outras condições possíveis
+* `else` → caso nenhuma condição seja verdadeira

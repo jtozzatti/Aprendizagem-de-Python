@@ -1,0 +1,46 @@
+**Variáveis em Python** são usadas para **armazenar valores na memória do programa**, como números, textos ou valores lógicos.
+
+Os tipos mais comuns são:
+
+* **`int` (integer)** → usado para **números inteiros**, sem casa decimal.
+
+```python
+idade = 19
+quantidade = 10
+```
+
+---
+
+* **`float`** → usado para **números com casas decimais**.
+
+```python
+altura = 1.75
+preco = 19.99
+```
+
+---
+
+* **`str` (string)** → usado para **textos ou conjuntos de caracteres**.
+
+```python
+nome = "João"
+mensagem = "Hello World"
+```
+
+---
+
+* **`bool` (boolean)** → usado para **valores lógicos**, que podem ser apenas **True ou False**.
+
+```python
+ligado = True
+aprovado = False
+```
+
+---
+
+✅ **Resumo:**
+
+* `int` → números inteiros
+* `float` → números decimais
+* `str` → textos
+* `bool` → verdadeiro ou falso

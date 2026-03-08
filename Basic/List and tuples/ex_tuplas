@@ -1,0 +1,13 @@
+# 1. Criar tuplas de produtos
+produto = ("brigadeiro", 5, 20)
+produto2 = ("paçoca", 30, 2.50)
+produto3 = ("nutella", 7, 23)
+
+# 2. Criar lista com as tuplas
+estoque = [produto, produto2, produto3]
+
+# 3. Desempacotar e exibir TODOS os produtos
+for item in estoque:
+    nome, quantidade, preço = item
+    print(f"Produto: {nome} | Qtd: {quantidade} | Preço: {preço}")
+
