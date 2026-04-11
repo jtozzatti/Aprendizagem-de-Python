@@ -1,0 +1,26 @@
+O que é o venv?
+venv (virtual environment) é um ambiente virtual isolado para seus projetos Python.
+Em vez de instalar tudo no seu PC inteiro, você cria um “mini Python separado” só para aquele projeto.
+
+1. Criar um ambiente virtual
+(No terminal dentro da pasta do projeto):
+--python -m venv venv
+
+2. Ativar o ambiente
+--venv\Scripts\activate
+
+Se deu certo, vai aparecer algo tipo:
+(venv) C:\seu_projeto>
+
+3. Instalar coisas dentro do venv
+(Agora tudo que você instalar fica só nele):
+--pip install pandas
+--pip install flask
+
+4. Salvar dependências (muito importante)
+pip freeze > requirements.txt
+
+Isso salva tudo que seu projeto usa.
+
+5. Desativar o ambiente
+deactivate
