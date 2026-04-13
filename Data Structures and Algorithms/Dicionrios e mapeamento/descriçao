@@ -1,0 +1,6 @@
+Se a Lista é como um trem onde os vagões são numerados (0, 1, 2...), o Dicionário é como 
+uma coleção de armários onde cada porta tem uma Etiqueta única. 
+
+Na programação, chamamos essa etiqueta de Chave (Key) e o que está dentro do armário de Valor 
+(Value). A grande vantagem é que você não precisa saber a posição de um item; basta saber o nome 
+da etiqueta para encontrá-lo instantaneamente.

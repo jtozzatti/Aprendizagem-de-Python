@@ -1,0 +1,6 @@
+Tuplas (): São como listas, mas imultáveis. Uma vez criadas, você não pode mudar nada. 
+São ótimas para dados fixos, como as coordenadas de um mapa ou os meses do ano.
+
+Conjuntos {}: São como listas, mas não permitem itens repetidos e não têm uma ordem fixa. 
+São perfeitos para quando você quer saber quais itens únicos existem em uma coleção
+(ex: quais frutas diferentes foram vendidas hoje).

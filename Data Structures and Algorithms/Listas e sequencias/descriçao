@@ -1,0 +1,17 @@
+O que é uma Lista?
+Pense na lista como um trem. Cada vagão guarda um dado (um número, um nome, etc.) 
+e cada vagão tem um número de ordem, que chamamos de índice (index).
+
+O primeiro vagão é sempre o índice 0.
+
+O segundo é o índice 1, e assim por diante.
+
+----------------------------------------------------------------------------------------------------
+As listas são "mutáveis", o que significa que podemos alterar os dados dentro delas, 
+adicionar novos "vagões" ao trem ou retirar o que não precisamos mais.
+
+Veja como faríamos isso com funções básicas (algoritmos internos do Python):
+
+append(): Adiciona um item ao final da lista.
+pop(): Remove o último item (ou um item em um índice específico).
+sort(): Coloca os itens em ordem (alfabética ou numérica).

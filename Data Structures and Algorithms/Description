@@ -1,0 +1,34 @@
+Estruturas de Dados : São as formas como organizamos e guardamos informações no computador para que possamos 
+usá-las de maneira eficaz. 
+Um exemplo pratico: imagine os ingredientes na minha cozinha. A forma como eu os organizo antes de começar é a sua "estrutura". 
+A gaveta de talheres: Uma lista onde os itens estão em ordem.
+A geladeira: Um Dicionário onde você sabe exatamente em qual prateleira (chave) está o leite ou o queijo (valor).
+
+Algoritmos : São os passos ou "receitas" que seguimos para processar esses dados. É o conjunto de instruções 
+para resolver um problema, como ordenar os livros por título ou encontrar um livro específico.
+O algoritmo é a receita. É a sequência lógica de passos para transformar os ingredientes em um lanche:
+1.Pegue duas fatias de pão.
+2.Passe a maionese.
+3.Coloque o queijo.
+4;Feche o sanduíche.
+
+Exemplo: Buscar um numero de 0 ate 100
+
+Vamos ver isso na prática com um exemplo clássico de busca. Imagine que eu te peça para adivinhar 
+um número que eu escolhi de 1 a 100.
+
+1. Busca Sequencial (Desorganizada) 🐢
+Se eu não te der regra nenhuma, você teria que chutar um por um: "É o 1?", "É o 2?", "É o 3?". 
+No pior dos casos, você faria 100 tentativas.
+
+2. Busca Binária (Organizada) 🚀
+Agora, imagine que os números estão em uma Lista Ordenada (nossa estrutura de dados). 
+O algoritmo para achar o número seria: "Chute sempre o número do meio".
+
+Você chuta 50.
+
+Eu digo: "É maior".
+
+Agora você esquece tudo abaixo de 50 e chuta o meio do que sobrou (75).
+
+Com essa estrutura e esse algoritmo, você encontraria qualquer número em, no máximo, 7 tentativas, em vez de 100!
