@@ -1,0 +1,24 @@
+Imagine que temos dois arquivos na mesma pasta:
+
+calculos.py (O seu módulo personalizado): Aqui você guarda a lógica.
+
+principal.py (Onde o programa executa): Aqui você chama o que precisa.
+
+Dentro de calculos.py, você define uma função:
+def calcular_bonus(salario):
+    return salario * 1.1  # Aumenta 10%
+
+No principal.py, para usar essa lógica sem ter que reescrevê-la, você faz:
+import calculos
+
+resultado = calculos.calcular_bonus(2000)
+print(resultado)
+
+Note que no arquivo principal usamos calculos.calcular_bonus. É como se disséssemos 
+ao computador: "Vá até o arquivo 'calculos' e use a ferramenta 
+'calcular_bonus' que está lá dentro".
+
+Se você tivesse outro arquivo chamado rh.py que também precisasse calcular bônus,
+ bastaria usar o import calculos lá também.
+
+

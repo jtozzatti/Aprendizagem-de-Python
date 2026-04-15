@@ -1,0 +1,20 @@
+Onde as Lambdas brilham? ✨
+Como mencionamos, elas são ótimas para funções "descartáveis". 
+Um uso muito comum é com a função filter(), que serve para filtrar
+ itens de uma lista com base em uma condição.
+
+Imagine que temos uma lista de números: [1, 5, 8, 10, 15, 20].
+Queremos filtrar apenas os números que são maiores que 10.
+
+Em vez de criar uma função inteira com def, podemos passar uma lambda diretamente para o filtro.
+
+Como o filter usa isso?
+O filter funciona como um segurança na porta de um clube: ele olha para cada número da sua 
+lista e pergunta para a sua lambda: "Esse aqui pode passar?". Se a lambda responder True (verdadeiro), 
+o número fica. Se responder False (falso), ele é barrado.
+
+Codigo:
+numeros = [5, 12, 7, 18, 3]
+# filter(função_logica, lista_de_dados)
+resultado = list(filter(lambda x: x > 10, numeros)) 
+# Resultado: [12, 18]

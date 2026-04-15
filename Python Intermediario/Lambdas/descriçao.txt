@@ -1,0 +1,25 @@
+As Lambdas (ou funções anônimas) são como "funções de bolso". Elas são 
+pequenas, rápidas e, como o nome diz, não precisam de um nome oficial 
+(como `def minha_funcao`) para existir. Elas são muito usadas quando você 
+precisa de uma lógica simples que será usada apenas uma vez e logo em seguida descartada.
+
+
+#Por que usar uma Lambda? 💡
+
+Imagine que você tem uma lista de nomes e quer ordená-la, mas não pela 
+ordem alfabética normal, e sim pelo **tamanho do nome**. 
+
+Em vez de criar uma função inteira só para contar letras, você usa uma lambda dentro 
+do comando de ordenação. É um código "descartável" que resolve o problema 
+ali mesmo, em uma única linha.
+
+A Anatomia de uma Lambda 
+
+A estrutura básica (usando Python como exemplo) segue este padrão:
+lambda argumentos : expressão
+
+Palavra-chave: `lambda` (avisa ao computador que uma função anônima está começando).
+Argumentos: O que a função recebe (como o $x$ em uma função matemática).
+Expressão: O que a função faz e devolve (o resultado).
+
+ 
