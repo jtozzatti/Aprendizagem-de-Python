@@ -1,0 +1,10 @@
+Decorators são como "capas" ou "embalagens" que você coloca em volta
+de uma função para mudar o comportamento dela sem mexer no código 
+interno da função original.
+
+Como um Decorator funciona por trás das câmeras? 
+
+Pense no Decorator como uma função que "abraça" outra função. 
+Ele recebe a sua função original.
+Cria uma função interna (um "embrulho").
+Dentro desse embrulho, ele executa algo antes ou depois da sua função.

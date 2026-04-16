@@ -1,0 +1,14 @@
+O objetivo desse código é monitorar a performance. Ele serve para medir exatamente 
+quanto tempo (em segundos) uma função leva para terminar de executar. No dia a dia 
+de um programador, isso é vital para descobrir quais partes do sistema estão lentas
+e precisam de melhorias.
+
+Como o Decorator @cronometro atua:
+Imagine que a função carregar_dados é um presente. O decorator funciona como 
+uma embalagem inteligente (o wrapper no código) que envolve esse presente:
+
+Antes de abrir o presente: O decorator anota o horário atual (o "Iniciando cronometragem").
+
+Abre o presente: Ele executa o código original da função carregar_dados().
+
+Depois de abrir: Ele olha o relógio novamente, subtrai o tempo inicial e te mostra o resultado.

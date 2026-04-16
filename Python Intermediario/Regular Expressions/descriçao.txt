@@ -1,0 +1,6 @@
+Por exemplo, em vez de procurar pelo número "9999-9999", você diz para o 
+computador: "Procure por um padrão que tenha 4 números, um traço e mais 4 números".
+
+O código mais básico é o \d, que significa dígito (qualquer número de 0 a 9).
+Se você quer dizer ao computador: "Procure por exatamente 5 números em sequência", 
+você usa chaves para indicar a quantidade: \d{5}.

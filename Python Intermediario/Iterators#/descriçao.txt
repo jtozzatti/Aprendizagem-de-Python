@@ -1,0 +1,11 @@
+Um Iterator é um objeto que permite navegar por uma coleção de dados 
+(como uma lista ou um dicionário), um item de cada vez. Ele guarda o 
+estado de "onde paramos" para saber qual é o próximo item.
+
+Imagine uma fila de pessoas. O Iterator é como um fiscal que aponta para 
+a primeira pessoa e diz: "Próximo!". Depois aponta para a segunda e diz: 
+"Próximo!", até que não reste ninguém.
+
+Para entender a diferença:
+Uma Lista é como um álbum de figurinhas cheio: todas as fotos estão lá ocupando espaço.
+Um Iterator é como uma máquina que imprime a próxima figurinha apenas quando você pede.

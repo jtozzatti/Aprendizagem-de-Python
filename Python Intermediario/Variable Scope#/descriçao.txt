@@ -1,0 +1,10 @@
+Esse conceito é fundamental para evitar erros estranhos onde uma variável "some" ou "muda de valor" do nada.
+
+O escopo define onde uma variável existe e pode ser usada. Existem dois tipos principais:
+
+Global: Variáveis criadas fora de qualquer função. Elas podem ser vistas por todo o código.
+
+Local: Variáveis criadas dentro de uma função. Elas só existem ali dentro e "morrem" quando a função termina.
+
+Imagine que o seu código é um prédio. Uma variável Global está no saguão (todos veem), 
+mas uma variável Local está trancada dentro de um apartamento (quem está no corredor não sabe o que tem lá dentro).
